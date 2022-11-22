@@ -25,12 +25,13 @@ For more details, check: [https://github.com/Unbabel/COMET](https://github.com/U
 Basic scoring command:
 
 ```bash
-comet-score -s src.de -t hyp1.en -r ref.en --model_storage_path PATH/TO/CHECKPOINT
+comet-score -s src.de -t hyp1.en -r ref.en --model PATH/TO/CHECKPOINT
 ```
 
 where PATH/TO/CHECKPOINT depends on selected model:
 
 > reference-based MS-COMET-22: `checkpoints/MS-COMET-22/model/MS-COMET-22.ckpt`
+>
 > quality estimation MS-COMET-QE-22 `checkpoints/MS-COMET-QE-22/model/MS-COMET-QE-22.ckpt`
 
 For more details and other usages, follow [https://github.com/Unbabel/COMET](https://github.com/Unbabel/COMET)
