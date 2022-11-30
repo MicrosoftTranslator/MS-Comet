@@ -17,6 +17,9 @@ or
 pip install unbabel-comet==1.1.2 --use-feature=2020-resolver
 ```
 
+Download and unzip models: [https://aka.ms/MS-COMET-checkpoints](https://aka.ms/MS-COMET-checkpoints)
+
+
 For more details, check: [https://github.com/Unbabel/COMET](https://github.com/Unbabel/COMET)
 
 
